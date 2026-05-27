@@ -9,7 +9,7 @@ App Android desenvolvido para gerenciamento de estoque e controle de cargas, com
 ### Tela Principal — Lista do Estoque
 A tela inicial exibe todos os produtos cadastrados no estoque com informações de nome, categoria, localização, peso por unidade e quantidade atual. Cada produto tem um indicador de status colorido baseado na quantidade disponível.
 
-> ![Tela Principal](screenshots/tela_principal.jpg)
+> ![Tela Principal](screenshots/tela_principal.jpeg)
 
 **Indicadores de status:**
 | Status | Cor | Quantidade |
@@ -24,21 +24,21 @@ A tela inicial exibe todos os produtos cadastrados no estoque com informações 
 ### Tela de Editar Estoque
 Ao clicar em **"Editar"** em qualquer produto, o app abre a tela de edição com as informações do produto e um campo para digitar a nova quantidade. A alteração é salva diretamente no banco de dados SQLite.
 
-> ![Editar Produto](screenshots/tela_editar.jpg)
+> ![Editar Produto](screenshots/tela_editar.jpeg)
 
 ---
 
 ### Tela de Novo Produto
 Ao clicar em **"+ Novo Produto"**, é possível cadastrar um novo item no estoque preenchendo nome, categoria, quantidade inicial, unidade, peso por unidade e localização no estoque.
 
-> ![Novo Produto](screenshots/tela_novo_produto.jpg)
+> ![Novo Produto](screenshots/tela_novo_produto.jpeg)
 
 ---
 
 ### Confirmação de Exclusão
 Ao clicar em **"Remover"**, o app exibe um diálogo de confirmação antes de excluir o produto do banco de dados, evitando exclusões acidentais.
 
-> ![Confirmar Exclusão](screenshots/tela_remover.jpg)
+> ![Confirmar Exclusão](screenshots/tela_remover.jpeg)
 
 ---
 
@@ -118,4 +118,4 @@ O banco de dados é criado automaticamente na primeira execução com dados de e
 
 ## 👨‍💻 Autor
 
-Desenvolvido por **Pedro** — Trabalho Avaliativo PAM2
+Desenvolvido por **Pedro Tersi** — Trabalho Avaliativo PAM2
