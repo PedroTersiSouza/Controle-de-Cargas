@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/formRoot"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F0F2F5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <!-- Nome -->
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="Nome do Produto *" android:textStyle="bold" android:textColor="#424242"
+            android:layout_marginBottom="4dp"/>
+        <EditText android:id="@+id/edtNome" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:hint="Ex: Caixa de Parafusos M8"
+            android:inputType="textCapWords" android:background="@android:color/white"
+            android:padding="12dp" android:layout_marginBottom="14dp"/>
+
+        <!-- Categoria -->
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="Categoria *" android:textStyle="bold" android:textColor="#424242"
+            android:layout_marginBottom="4dp"/>
+        <EditText android:id="@+id/edtCategoria" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:hint="Ex: Fixadores, Elétrico, Construção"
+            android:inputType="textCapWords" android:background="@android:color/white"
+            android:padding="12dp" android:layout_marginBottom="14dp"/>
+
+        <!-- Quantidade -->
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="Quantidade *" android:textStyle="bold" android:textColor="#424242"
+            android:layout_marginBottom="4dp"/>
+        <EditText android:id="@+id/edtQuantidade" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:hint="Ex: 100"
+            android:inputType="number" android:background="@android:color/white"
+            android:padding="12dp" android:layout_marginBottom="14dp"/>
+
+        <!-- Unidade -->
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="Unidade" android:textStyle="bold" android:textColor="#424242"
+            android:layout_marginBottom="4dp"/>
+        <EditText android:id="@+id/edtUnidade" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:hint="Ex: un, cx, sc, tb, pl"
+            android:background="@android:color/white" android:padding="12dp"
+            android:layout_marginBottom="14dp"/>
+
+        <!-- Peso -->
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="Peso por unidade (kg)" android:textStyle="bold" android:textColor="#424242"
+            android:layout_marginBottom="4dp"/>
+        <EditText android:id="@+id/edtPeso" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:hint="Ex: 12.5"
+            android:inputType="numberDecimal" android:background="@android:color/white"
+            android:padding="12dp" android:layout_marginBottom="14dp"/>
+
+        <!-- Localização -->
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="Localização no Estoque" android:textStyle="bold" android:textColor="#424242"
+            android:layout_marginBottom="4dp"/>
+        <EditText android:id="@+id/edtLocal" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:hint="Ex: A-01, B-03"
+            android:inputType="textCapCharacters" android:background="@android:color/white"
+            android:padding="12dp" android:layout_marginBottom="24dp"/>
+
+        <!-- Botões -->
+        <Button android:id="@+id/btnSalvar" android:layout_width="match_parent"
+            android:layout_height="52dp" android:text="Salvar"
+            android:textSize="15sp" android:textColor="#FFFFFF"
+            android:backgroundTint="#4CAF50" android:layout_marginBottom="8dp"/>
+
+        <Button android:id="@+id/btnCancelar" android:layout_width="match_parent"
+            android:layout_height="48dp" android:text="Cancelar"
+            android:textColor="#757575" android:backgroundTint="#E0E0E0"/>
+
+    </LinearLayout>
+</ScrollView>
